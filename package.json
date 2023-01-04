@@ -1,0 +1,35 @@
+{
+  "name": "node-akeneo-syncce",
+  "version": "1.6.0",
+  "description": "Syncs data between two Community Edition Akeneo PIMs",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"rebuilding...\" && rm -fr node_modules && rm -f package-lock.json && npm install && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donaldbales/node-akeneo-syncce.git"
+  },
+  "keywords": [
+    "akeneo",
+    "sync"
+  ],
+  "author": "Donald Bales",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@types/bunyan": "^1.8.6",
+    "@types/node": "10.14.17",
+    "bunyan": "^1.8.12",
+    "node-akeneo-api": "1.6.15"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^2.9.2"
+  },
+  "bugs": {
+    "url": "https://github.com/donaldbales/node-akeneo-syncce/issues"
+  },
+  "homepage": "https://github.com/donaldbales/node-akeneo-syncce#readme"
+}
